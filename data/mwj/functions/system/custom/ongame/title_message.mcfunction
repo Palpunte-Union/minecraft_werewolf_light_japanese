@@ -1,0 +1,2 @@
+execute as @a[scores={DrunkPlayer=1..,PrevRole=1..4}] run tellraw @a[scores={CurrentRole=1..4}] ["",{"text":"    仲間の残り一人は酔っ払っています。","color":"white"}]
+execute as @a[scores={DrunkPlayer=1..,PrevRole=1..4}] run tellraw @a[scores={CurrentRole=6}] ["",{"text":"    人狼の残り一人は酔っ払っています。","color":"white"}]

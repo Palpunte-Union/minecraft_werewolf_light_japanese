@@ -103,3 +103,5 @@ function mwj:system/preparation/role_decision/cat
 scoreboard players operation #MWL NumOfRole = #MWL AddedMason
 function mwj:system/preparation/role_decision/mason_pair
 scoreboard objectives remove NumOfRole
+
+function mwj:system/custom/ongame/set_role

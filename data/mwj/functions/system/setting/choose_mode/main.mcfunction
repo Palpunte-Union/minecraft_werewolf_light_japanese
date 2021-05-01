@@ -13,6 +13,8 @@ function mwj:system/time/time
 scoreboard players set @e[type=minecraft:item,nbt={Item:{tag:{Tags:["MWLsetting"]}}}] ThrowItem 1
 execute as @e[type=minecraft:item,scores={ThrowItem=1}] run function mwj:system/setting/choose_mode/detect_drop
 
+function mwj:system/custom/setting/main
+
 ## Detect Select Item
 scoreboard players set @p[tag=Host] ChosenCasting 1
 scoreboard players set @p[tag=Host] ChosenDummyRole 1

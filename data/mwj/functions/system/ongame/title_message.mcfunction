@@ -55,6 +55,7 @@ execute if score #MWL NumOfThieves matches 1.. run tellraw @a ["",{"text":"    "
 execute if score #MWL NumOfLtReds matches 1.. run tellraw @a ["",{"text":"    ","color":"white"},{"text":"赤ずきん","color":"gold"},{"text":" ： ","color":"white"},{"score":{"name":"#MWL","objective":"NumOfLtReds"},"color":"white"},{"text":"人","color":"white"}]
 execute if score #MWL NumOfCats matches 1.. run tellraw @a ["",{"text":"    ","color":"white"},{"text":"猫    又","color":"gold"},{"text":" ： ","color":"white"},{"score":{"name":"#MWL","objective":"NumOfCats"},"color":"white"},{"text":"人","color":"white"}]
 
+function mwj:system/custom/ongame/drunk/hiderole
 tellraw @a[scores={CurrentRole=1}] ["",{"text":"\n    あなたは ","color":"white"},{"text":"人狼","color":"red"},{"text":" です。","color":"white"}]
 tellraw @a[scores={CurrentRole=3}] ["",{"text":"\n    あなたは ","color":"white"},{"text":"賢狼","color":"dark_red"},{"text":" です。","color":"white"}]
 tellraw @a[scores={CurrentRole=4}] ["",{"text":"\n    あなたは ","color":"white"},{"text":"白狼","color":"red"},{"text":" です。","color":"white"}]
@@ -77,4 +78,6 @@ tellraw @a[scores={CurrentRole=35}] ["",{"text":"\n    あなたは ","color":"w
 tellraw @a[scores={CurrentRole=39}] ["",{"text":"\n    あなたは ","color":"white"},{"text":"赤ずきん","color":"gold"},{"text":" です。","color":"white"}]
 tellraw @a[scores={CurrentRole=40}] ["",{"text":"\n    あなたは ","color":"white"},{"text":"猫又","color":"gold"},{"text":" です。","color":"white"}]
 tellraw @a[team=!Player] ["",{"text":"\n    あなたは ","color":"white"},{"text":"観戦者","color":"white"},{"text":" です。","color":"white"}]
+function mwj:system/custom/ongame/title_message
 tellraw @a ["",{"text":"----------------------------------\n","color":"white"}]
+function mwj:system/custom/ongame/drunk/set_role
