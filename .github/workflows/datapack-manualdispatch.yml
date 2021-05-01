@@ -1,4 +1,4 @@
-name: Package Datapack on Pull Request
+name: Package Datapack Manual
 on: 
   workflow_dispatch
 
