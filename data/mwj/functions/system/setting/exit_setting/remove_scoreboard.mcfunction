@@ -152,3 +152,5 @@ scoreboard objectives remove ThrowItem
 
 ## Clear Inventory
 clear @a
+
+function mwj:system/custom/ongame/scoreboard/remove

@@ -5,3 +5,5 @@ execute if score #MWL SetHaunting matches 0 run loot replace entity @p[tag=Host]
 execute if score #MWL SetHaunting matches 1 run loot replace entity @p[tag=Host] inventory.2 loot mwj:item/custom/totem_of_undying_enchanted
 execute if score #MWL SetDrunk matches 0 run loot replace entity @p[tag=Host] inventory.3 loot mwj:item/custom/milk_bucket
 execute if score #MWL SetDrunk matches 1 run loot replace entity @p[tag=Host] inventory.3 loot mwj:item/custom/milk_bucket_enchanted
+execute if score #MWL SetMason matches 0 run loot replace entity @p[tag=Host] inventory.4 loot mwj:item/custom/tnt
+execute if score #MWL SetMason matches 1 run loot replace entity @p[tag=Host] inventory.4 loot mwj:item/custom/tnt_enchaneted

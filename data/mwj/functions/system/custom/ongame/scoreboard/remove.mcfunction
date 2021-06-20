@@ -16,4 +16,9 @@ scoreboard objectives remove DrunkKill
 scoreboard objectives remove DrunkPlayer
 scoreboard objectives remove DrinkMilk
 
+scoreboard objectives remove Mason
+scoreboard objectives remove SetMason
+scoreboard objectives remove PrevSetMason
+scoreboard objectives remove MasonDeath
+
 scoreboard objectives remove TrueRole
