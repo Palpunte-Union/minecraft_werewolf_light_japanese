@@ -9,7 +9,7 @@ title @a[scores={Mason=40}] title "２"
 title @a[scores={Mason=20}] title "１"
 
 execute as @a[scores={Mason=1}] at @s run particle campfire_cosy_smoke ~ ~ ~ 3 3 3 0 1000 normal
-playsound entity.generic.explode master @a 0 0 0 10 1 1
+execute as @a[scores={Mason=1}] run playsound entity.generic.explode master @a 0 0 0 10 1 1
 kill @a[scores={Mason=1}]
 
 scoreboard players remove @a[scores={Mason=1..}] Mason 1
