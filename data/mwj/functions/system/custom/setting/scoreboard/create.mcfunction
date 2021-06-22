@@ -13,11 +13,12 @@ scoreboard objectives add SetDrunk dummy
 scoreboard objectives add PrevSetDrunk dummy
 scoreboard objectives add DrunkPlayer dummy
 scoreboard objectives add DrunkKill playerKillCount
-## Add Variables for Setting Quartz
+## Add Variables for Setting Mason
 scoreboard objectives add Mason dummy
 scoreboard objectives add SetMason dummy
 scoreboard objectives add PrevSetMason dummy
 scoreboard objectives add MasonDeath deathCount
+scoreboard objectives add MasonID dummy
 
 ## Set Quartz
 scoreboard players set #MWL SetQuartz 0

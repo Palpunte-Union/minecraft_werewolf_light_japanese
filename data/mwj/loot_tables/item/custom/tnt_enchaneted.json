@@ -6,7 +6,7 @@
         "entries":[
           {
             "type":"minecraft:item",
-            "name":"minecraft:milk_bucket",
+            "name":"minecraft:tnt",
             "functions":[
               {
                 "function":"minecraft:set_name",

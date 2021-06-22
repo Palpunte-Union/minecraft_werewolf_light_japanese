@@ -9,4 +9,7 @@ scoreboard players set @r[team=Player,tag=!NoDrunk] HauntPlayer 1
 scoreboard players set @a DrunkPlayer 0
 scoreboard players set @r[team=Player,tag=!NoDrunk] DrunkPlayer 1
 
-tag @a[tag=MASON] remove MASON
+#Mason
+scoreboard players reset @a Mason
+
+tag @a[tag=NoDrunk] remove NoDrunk

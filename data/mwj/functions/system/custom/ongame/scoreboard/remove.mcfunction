@@ -20,5 +20,6 @@ scoreboard objectives remove Mason
 scoreboard objectives remove SetMason
 scoreboard objectives remove PrevSetMason
 scoreboard objectives remove MasonDeath
+scoreboard objectives remove MasonID
 
 scoreboard objectives remove TrueRole

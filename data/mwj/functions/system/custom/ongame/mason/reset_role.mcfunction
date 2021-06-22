@@ -1,0 +1,1 @@
+scoreboard players set @a[scores={CurrentRole=210..211}] CurrentRole 21

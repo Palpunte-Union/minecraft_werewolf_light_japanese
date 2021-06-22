@@ -13,3 +13,4 @@ playsound entity.generic.explode master @a 0 0 0 10 1 1
 kill @a[scores={Mason=1}]
 
 scoreboard players remove @a[scores={Mason=1..}] Mason 1
+scoreboard players reset @a MasonDeath
