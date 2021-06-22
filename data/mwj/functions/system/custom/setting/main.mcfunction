@@ -14,4 +14,4 @@ scoreboard players set @p[tag=Host,nbt={Inventory:[{Slot:13b,id:"minecraft:tnt"}
 execute as @p[tag=Host,scores={Quartz=1}] run function mwj:system/custom/setting/set_quartz
 execute as @p[tag=Host,scores={Haunting=1}] run function mwj:system/custom/setting/set_haunting
 execute as @p[tag=Host,scores={Drunk=1}] run function mwj:system/custom/setting/set_drunk 
-execute as @p[tag=Host,scores={Drunk=1}] run function mwj:system/custom/setting/set_mason 
+execute as @p[tag=Host,scores={Mason=1}] run function mwj:system/custom/setting/set_mason 
