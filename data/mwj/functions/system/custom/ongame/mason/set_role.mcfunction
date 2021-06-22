@@ -3,4 +3,5 @@ execute as @a[scores={CurrentRole=21},tag=!MASON_NAN] if score @s MasonPair = @a
 execute unless entity @a[scores={CurrentRole=21,MasonID=1}] run scoreboard players set @a[scores={CurrentRole=21}] CurrentRole 210
 tag @a remove MASON_NAN
 scoreboard players set @a[scores={MasonID=1}] CurrentRole 211
+scoreboard players set @a MasonDeath 0
 scoreboard players reset @a MasonID
